@@ -27,4 +27,8 @@ class Node:
                 [0, 0, 1, 0, 1]
             ]
             n = len(graph)
+            source.x, source.y  = 0, 0,
+            goal.x, goal.y = 4, 4
+            self.source = Node(source.x, source.y, 0)
+            self.goal = Node(goal.x, goal.y, 0)
 
