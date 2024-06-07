@@ -30,7 +30,7 @@ class BFS:
         self.goal = Node(4, 4, float('inf'))
         self.start_bfs(graph)
         if self.found:
-            print("Goal Found")
+            print("Goal is Found")
             print("The shortest path is:", self.goal_level)
         else:
             print("invalid Goal Not Found")
