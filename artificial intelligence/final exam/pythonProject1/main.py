@@ -33,7 +33,7 @@ class BFS:
             print("Goal Found")
             print("The shortest path is:", self.goal_level)
         else:
-            print("Goal Not Found")
+            print("invalid Goal Not Found")
 
     def start_bfs(self, graph):
         q = deque()
